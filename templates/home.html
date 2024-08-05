@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ML API</title>
+</head>
+
+<body>
+    <div class="login">
+        <h1>Customer Segmentation</h1>
+
+        <form action="{{url_for('predict')}}"method="post">
+            <table>
+                <tr>
+                    <td>Input_Year:</td> <td><input type="text" placeholder="Input the Year"> </td>
+                </tr>
+
+                <tr>
+                    <td>Education:</td> 
+                    <td> 
+                        <select>
+                            <option>Basic</option>
+                            <option>2n cycle</option>
+                            <option>Graduation</option>
+                            <option>Master</option>
+                            <option>Phd</option>
+        
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Maritatus Status:</td> 
+                    <td> 
+                        <select>
+                            <option>Basic</option>
+                            <option>2n cycle</option>
+                            <option>Graduation</option>
+                            <option>Master</option>
+                            <option>Phd</option>
+        
+                        </select>
+                    </td>
+                </tr>
+
+                
+        
+            
+        </table>
+        </form>
+    </div>
+</body>
+
+
+</html>
